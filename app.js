@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to using containers. \'s  use the Continuous Delivery Service');
+  res.send('Welcome to using . \'s  use the Continuous Delivery Service');
 });
 
 app.listen(PORT);
