@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to using . \'s  use the Delivery Service');
+  res.send('Welcome to using . \'s  use the  Service');
 });
 
 app.listen(PORT);
